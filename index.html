@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- start Meta data-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Pixel Art Maker">
+    <meta name="keywords" content="HTML, CSS, JavaScript, pixel art maker">
+    <meta name="author" content="Atef Lassoued">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- End Meta data-->
+	<link rel="stylesheet" href="css/style.css"></link>
+	<script src="scripts/Art.js"></script>
+    <title>Pixel Art Maker</title>
+  </head>
+  <body>
+<h1>Simple Pixel Art Maker</h1>
+<h3>Choose Grid Size</h3>
+<form>
+<label>Grid Height:</label>
+<input type="number" id="HeightID"/>
+<label>Grid Width:</label>
+<input type="number" id="WidthID"/>
+<input type="button" value="Submit Data" onclick="DrawGrid()"></input>
+<input type="reset" value="reset"/>
+</form>
+<h4>Pick A Color</h4><input type="color" id="ColorID"/>
+<h4>Design Canvas</h4>
+<table id="GridID"> 
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<div class="footer">Designed By Atef Lassoued</div>
+</body>
+</html>
