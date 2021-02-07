@@ -1,0 +1,45 @@
+/* CSS Style */
+body {
+      text-align:center; 
+      background-image: url('img.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+h1   {
+    font-family:fantasy;
+    font-size:60px;
+    margin:2px;
+}
+table {
+    border-collapse:collapse;
+    margin:auto;
+    }
+table,tr,td {
+    border:1px solid black;
+    }
+tr {
+    height:15px;
+   }
+td {
+    width:15px;
+    }
+h3 {
+    font-size: 2em;
+    }
+label,input {
+    font-size: 20px;
+    }
+h3,label,input,h4 {
+    font-family: monospace;
+    }
+h4 {
+    font-size: 1.75em;
+    }
+.footer {
+    margin: auto;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 1em 0 1em 0;
+    width: 300px;
+}
